@@ -11,8 +11,8 @@ This project classifies active satellites into LEO, MEO, and GEO orbits based on
 
 ## 📂 Files
 
-- `orbit_classification.ipynb`: Main notebook for orbit classification.
-- `orbit_visualization.py`: Code for 3D satellite orbit visualization.
+- `classification.py`: Main code for orbit classification.
+- `plot.py`: Code for 3D satellite orbit visualization.
 - `orbit_classification.csv`: Output CSV with satellite details.
 - `README.md`: Project overview.
 
