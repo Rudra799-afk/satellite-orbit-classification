@@ -15,7 +15,7 @@ This project classifies active satellites into LEO, MEO, and GEO orbits based on
 - `plot.py`: Code for 3D satellite orbit visualization.
 - `orbit_classification.csv`: Output CSV with satellite details.
 - `README.md`: Project overview.
-- `SSA_Research_Paper`: All of the information about ther project.
+- `SSA_Research_Paper`: All of the information about the project.
 
 ## 📈 Sample Output
 
