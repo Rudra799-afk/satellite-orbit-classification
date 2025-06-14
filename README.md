@@ -1,31 +1,31 @@
-# 🛰️ Satellite Orbit Classification & Visualization
+# Satellite Orbit Classification & Visualization 🚀
 
-This project visualizes satellite orbits around Earth in 3D and classifies them into LEO, MEO, or GEO based on real-time TLE data using Python. It also marks satellites in a risk zone (altitude below 300 km). Designed for educational and research purposes.
+This project classifies active satellites into LEO, MEO, and GEO orbits based on their altitude and inclination using TLE (Two-Line Element) data from CelesTrak. It also includes a 3D interactive visualization of satellite orbits around the Earth.
 
----
+## 🔍 Features
 
-## 📌 Features
+- Fetches real-time TLE satellite data.
+- Classifies satellites by orbit type and risk zone.
+- Generates clean, labeled CSV output.
+- Includes an interactive 3D plot using Plotly.
 
-- ✅ 3D interactive satellite orbit visualization using Plotly
-- 📊 Classification into:
-  - LEO (Low Earth Orbit)
-  - MEO (Medium Earth Orbit)
-  - GEO (Geostationary Orbit)
-- ⚠️ Risk Zone detection (if altitude < 300km)
-- 🗃️ Output saved to CSV for further analysis
+## 📂 Files
 
----
+- `orbit_classification.ipynb`: Main notebook for orbit classification.
+- `orbit_visualization.py`: Code for 3D satellite orbit visualization.
+- `orbit_classification.csv`: Output CSV with satellite details.
+- `README.md`: Project overview.
 
-## 🛠️ Built With
+## 📈 Sample Output
 
-- Python
-- [Skyfield](https://rhodesmill.org/skyfield/)
-- Pandas
-- Plotly
+| Satellite Name | Altitude (km) | Orbit Type | Risk Zone |
+|----------------|----------------|-------------|-------------|
+| ISS (ZARYA)    | 408.34         | LEO         | Risk        |
 
----
+## 📚 Use Case
 
-## ▶️ How to Run
+Made for educational purposes to help beginners understand satellite motion and orbit classification. Ideal for science fairs, university research profiles, or MEXT project add-ons.
 
-```bash
-pip install skyfield plolty pandas
+## ⚖️ License
+
+MIT License. Feel free to use and modify with credit.
