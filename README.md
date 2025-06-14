@@ -28,5 +28,4 @@ This project visualizes satellite orbits around Earth in 3D and classifies them 
 ## ▶️ How to Run
 
 ```bash
-pip install -r requirements.txt
-python main.py
+pip install skyfield plolty pandas
